@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(33, 31, 31);
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.portada{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.intro{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.p-intro{
+    text-align: justify;
+    width: 65%;
+    margin-left: 15%;
+}
+
+.options{
+    display: flex;
+    gap: 120px;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+
+.optionMain{
+    text-align: right;
+}
+
+.btn{
+    border: solid 1px #fff;
+    border-radius: 6px;
+    background: lime;
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.aref{
+    margin-left: 90%;
+}
+
+.img-sect-1{
+    width: 200px;
+    height: 98px;
+}
+
+.img-sect-2{
+    width: 240px;
+    height: 98px;
+    
+}
+
+.img-sect-3{
+    width: 230px;
+    height: 98px;
+}
+
+.img-sect-4{
+    width: 140px;
+    height: 95px;
+}
+
+.b-menu{
+    background-color: azure;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sect-1{
+    display: flex;
+    margin-left: 30%;
+    border: 1.2px solid #000;
+    border-radius: 5px;
+    width: 700px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+
+.sect-2{
+    display: flex;
+    border: 1.2px solid #000;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 700px;
+    height: 100px;
+    background-color: lightsalmon;
+}
+
+.sect-3{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: 1.2px solid #000;
+    border-radius: 5px;
+    width: 700px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.sect-4{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: 1.2px solid #000;
+    border-radius: 5px;
+    width: 700px;
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+.sect-5{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20px;
+    border: 1.2px solid #000;
+    border-radius: 5px;
+    width: 700px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+
+.p-sec{
+    margin-top: 50px;
+    margin-left: 8px;
+    color: #000;
+}
+
+.p-sec:hover{
+    color: #fff;
+}
+
+
+.r{
+    margin-top: -50px;
+}
+
+.b-tecno{
+    background-color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.h2-tec{
+    margin-top: 20px;
+}
+
+.parrafo-tec{
+    width: 800px;
+    margin-left: 20%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img-tecno-1{
+    width: 450px;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+
+
+.img-tecno-2{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.img-tecno-3{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.img-tecno-4{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+.h2-tes{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+.parrafo-tes{
+    margin-left: 33%;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+}
+
+.b-glosa{
+    background-color: #fff;
+    color: #000;
+}
+
+.h2-glos{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.glos{
+    width: 700px;
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 25%;
+}
+
+span{
+    font-size: large;
+    font-weight: bold;
+}
+
+.glosa{
+    font-size: 35px;
+    margin-left: 50%;
+    margin-top: -120px;
+    color: #000;
+}
+
+.glosa:hover{
+   color: #fff;
+}
+
+.gl{
+    width: 120px;
+    height: 35px;
+    background-color: lime;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    margin-top: -50px;
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 50%;
+}
+
+.img-ups-1{
+    width: 400px;
+    height: 300px;
+    margin-top: 15px;
+}
+
+.b-ca{
+    background-color: #fff;
+}
+
+.h2-ca{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-ups-2{
+    margin-left: 15%;
+}
+
+.h2-vent{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-venta{
+    margin-left: 30%;
+    width: 600px;
+    margin-left: 30%;
+}
+
+.g{
+    width: 800px;
+    margin-left: 20%;
+    text-align: justify;
+}
+
+.u{
+    width: 800px;
+    margin-left:8%;
+    text-align: justify;
+}
+
+.video{
+    margin-left: 20%;
+    margin-top: 50px;
+}
